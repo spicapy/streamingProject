@@ -1,0 +1,60 @@
+.main {
+    background: #e6e6e6 ; 
+}
+
+.container-animes {
+    display: flex;
+}
+
+.content-animes {
+    padding: 2rem 0;
+    margin: 10rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-anime {
+    width: 150px;
+    padding: 3rem;
+    margin: 1rem;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.title-anime {
+    text-align: center;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.jj-container:hover,
+.kg-container:hover,
+.rz-container:hover {
+    padding: 5rem;
+    background-color: #ff4271;
+}
+
+.jj-container:hover > h4,
+.kg-container:hover > h4,
+.rz-container:hover > h4 {
+    font-size: 1.275rem;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .content-animes {
+        margin: 0 auto;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 520px) {
+    .jj-container:hover,
+    .kg-container:hover,
+    .rz-container:hover {
+        padding: 4rem;
+        background-color: #ff4271;
+    }
+}

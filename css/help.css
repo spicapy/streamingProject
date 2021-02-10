@@ -1,0 +1,39 @@
+main {
+    background: #e6e6e6 ; 
+}
+
+.help {
+    margin: 3rem;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.titles-group {
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.subtitles-group {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media (max-width: 520px) {
+    .help {
+        padding-inline-start: 0;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .titles-group {
+        font-size: 1.2rem;
+    }
+
+
+}

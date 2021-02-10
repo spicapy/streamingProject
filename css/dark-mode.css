@@ -1,0 +1,40 @@
+.background-dark {
+    background-color: #2d3032;
+}
+.background-light {
+    background-color: #ffffff;
+}
+.text-dark {
+    color: #2d3032;
+}
+.text-light {
+    color: #ffffff;
+}
+.text-light:hover {
+    color: #e6e6e6;
+}
+
+.main-dark {
+    background-color: #1e1f20;
+}
+.logo-dark {
+  fill: #ffffff;
+}
+.box-shadow-dark {
+    box-shadow: 0 0 0.765rem 1rem #2d3032;
+}
+.row-dropdown-dark:hover {
+    background-color: #1e1f20;
+}
+.btn-login:hover {
+    background-color: #ff4271;
+}
+.media-footer-dark {
+    background-color: #494e52;
+}
+.media-footer-dark:hover {
+    background-color: #33373a;
+}
+.border-color-dark:nth-child(4) {
+    border-bottom:1px solid #2d3032;
+}

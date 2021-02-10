@@ -1,0 +1,104 @@
+main {
+    background: #ffffff ; 
+}
+
+.screen-form {
+    width: 100%;
+    height: 852px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.error {
+    width: 100%;
+    background-color: #ff4271;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.error-showme {
+    display: flex;
+}
+
+.container-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.text-form {
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 1px solid #2d3032;
+    margin-block-start: 0;
+}
+
+.fieldset-data {
+    padding: 0;
+    border-color: transparent;
+}
+
+.row-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.row-form:nth-child(3), .row-form:nth-child(4) {
+    display: block;
+}
+
+.label-group {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2d3032;
+}
+
+.input-group {
+    display: block;
+    font-size: 1rem;
+    padding: 0.675rem 0;
+    border: none;
+    border-bottom: 1px solid #2d3032;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.input-group:hover{
+    border-bottom: 1px solid #ff4271;
+}
+
+.input-group:focus{
+    outline: 0;
+}
+
+.row-form input[type="radio"] {
+    margin: 0;
+}
+
+.btn-submit {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.875rem 0;
+    background-color: #2d3032;
+    border: none;
+    border-radius: 1rem;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-submit:hover {
+    background-color: #ff4271;
+}
+
+.btn-submit:focus {
+    outline: 0;
+}

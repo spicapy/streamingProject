@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Guilherme Spica Luiz">
+    <meta name="description" content="Animecamp é um site de animes focado para as pessoas que gostam e tenham interesse não só por animes mas pela cultura geek japonesa no geral.">
+    <meta name="keywords" content="anime, site de animes, mangá, cultura japonesa, geek">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/animecamp.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <title>Animecamp! Um site de animes focado para quem gosta da cultura japonesa</title>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <nav class="nav">
+                <a href="/" title="Animecamp! Um site de animes focado para quem gosta da cultura japonesa">
+                    <svg class="logo" width="191" height="30" viewBox="0 0 191 20">
+                        <text x="1.309" y="20.256">Animecamp</text>
+                    </svg>
+                </a>
+                <div class="navbar">
+                    <a class="links" href="error.html">Premium</a>
+                    <span class="material-icons icons-navbar">shop</span>
+                    <a class="links" href="error.html">Novidades</a>
+                    <span class="material-icons icons-navbar">notifications</span>
+                    <a class="links" href="animes.html">Animes</a>
+                    <span class="material-icons icons-navbar">play_arrow</span>
+                    <a class="links" href="index.html">Home</a>
+                    <span class="material-icons icons-navbar">home</span>
+                </div>
+                <a href="forms.html" class="login-btn">Cadastrar</a>
+                <div class="menu-h">
+                    <div class="icon-menu-h">
+                        <span class="lines"></span>
+                        <span class="lines"></span>
+                        <span class="lines"></span>
+                    </div>
+                    <div class="navbar-menu-h">
+                        <div class="row-menu-h">
+                            <span class="material-icons icons-menu-h">home</span>
+                            <a class="links-menu-h" href="index.html">Home</a>
+                        </div>
+                        <div class="row-menu-h">
+                            <span class="material-icons icons-menu-h">play_arrow</span>
+                            <a class="links-menu-h" href="animes.html">Animes</a>
+                        </div>
+                        <div class="row-menu-h">
+                            <span class="material-icons icons-menu-h">notifications</span>
+                            <a class="links-menu-h" href="error.html">Novidades</a>
+                        </div>
+                        <div class="row-menu-h">
+                            <span class="material-icons icons-menu-h">shop</span>
+                            <a class="links-menu-h" href="error.html">Premium</a>
+                        </div>
+                        <div class="row-menu-h">
+                            <span class="material-icons icons-menu-h">account_circle</span>
+                            <a class="links-menu-h" href="forms.html">Cadastrar</a>
+                        </div>
+                        <div class="row-menu-h dark-mode">
+                            <span class="material-icons icons-menu-h">bedtime</span>
+                            <span class="links-menu-h">Modo Noturno</span>
+                            <div class="toggle-btn">
+                                <div class="circle-btn"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="screen-form">
+            <div class="error">
+                <span class="material-icons">close</span>
+            </div>
+            <div class="container-form">
+                <h1 class="text-form">Formulário de Cadastro</h1>
+                <form class="form" id="form" name="form" action="#" method="post">
+                    <fieldset class="fieldset-data">
+                        <div class="row-form">
+                            <label class="label-group" for="name">Nome:</label>
+                            <input placeholder="Digite seu nome" type="text" class="input-group" id="name" required autocomplete="off">
+                        </div>
+                        <div class="row-form">
+                            <label class="label-group" for="email">Email:</label>
+                            <input placeholder="Nome@exemplo.com" type="email" class="input-group" id="email" required autocomplete="off">
+                        </div>
+                        <div class="row-form">
+                            <input type="radio" name="genrer" id="masc" required>
+                            <label for="masc">Masculino</label>
+                        </div>
+                        <div class="row-form">
+                            <input type="radio" name="genrer" id="femin" required>
+                            <label for="femin">Feminino</label>
+                        </div>
+                        <div class="row-form">
+                            <label class="label-group" for="password">Senha:</label>
+                            <input placeholder="Digite sua senha" type="password" class="input-group" id="password" required autocomplete="off" maxlength="16">
+                        </div>
+                        <div class="row-form">
+                            <label class="label-group" for="confPassword">Confirme a senha:</label>
+                            <input placeholder="Confirme sua senha" type="password" class="input-group" id="confPassword" required autocomplete="off" maxlength="16">
+                        </div>
+                    </fieldset>
+                    <input class="btn-submit" type="button" value="Enviar" onclick="validar()">
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-content">
+                <a href="index.html" title="Animecamp! Um site de animes focado para quem gosta da cultura japonesa">
+                    <svg class="logo" width="191" height="30" viewBox="0 0 191 20">
+                        <text x="1.309" y="20.256">Animecamp</text>
+                    </svg>
+                </a>
+                <div class="footer-enterprise">
+                    <h3 class="text-enterprise">Empresa</h3>
+                    <a class="links-footer" href="error.html">Termos de uso e serviços</a>
+                </div>
+                <div class="footer-enterprise">
+                    <h3 class="text-enterprise">Links Úteis</h3>
+                    <a class="links-footer" href="help.html">Ajuda</a>
+                    <a class="links-footer" href="error.html">Informações sobre o premium</a>
+                </div>
+                <div>
+                    <div class="row-footer">
+                        <a class="media-footer" href="https://twitter.com/ACPlataform">
+                            <img src="img/twitter-icon.png" width="40" height="40" alt="Twitter">
+                        </a>
+                    </div>
+                    <div class="row-footer">
+                        <p class="text-footer">Brasil</p>
+                        <img src="img/brasil.png" width="20" height="20" alt="Brasil">
+                    </div>
+                    <div class="row-footer">
+                        <p class="text-footer">©Animecamp2020</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="js/forms-validation.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+</html>
